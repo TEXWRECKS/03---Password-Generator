@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Random Password Generator</title>
+        <!-- Bootstrap link -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+        <!-- css style sheet link -->
+        <link rel="stylesheet" href="Assets/CSS/style.css" />
+    </head>
+    <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar link - "#" allows this to not link out to any other website -->
+        <a class="navbar-brand" href="#">Random Password Generator</a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!-- This class of columns allows this to take up 8 of the 12 columns on large screens, and the entire 12 columns on small screens -->
+            <!-- "mx-auto" will center the div for us by applying auto margins to the columns -->
+            <div class="col-lg-8 col-sm-12 mx-auto">
+                <!-- This div is where our content will go -->
+                <div class="content">
+                    <h1>Random Password Generator</h1>
+                    <!-- This is a line break for separation -->
+                    <br />
+                    <!-- This is where we will be displaying the passwords -->
+                    <input type="text" id="display">
+                    <br />
+                    <!-- This is a button -->
+                    <!-- <button onclick="generate()" id="button">Generate Password</button> -->
+                    <button id="generate" class="btn">Generate Password</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript style sheet link -->
+    <script src="Assets/Javascript/script.js"></script>
+  </body>
+</html>
